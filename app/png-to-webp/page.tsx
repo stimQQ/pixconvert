@@ -258,8 +258,8 @@ export default function PngToWebpPage() {
           <p className="text-sm text-gray-400 mb-3">Related converters:</p>
           <div className="flex flex-wrap gap-3">
             <Link href="/jpg-to-webp" className="text-sm text-indigo-600 hover:underline">JPG to WebP (no transparency) →</Link>
+            <Link href="/gif-to-webp" className="text-sm text-indigo-600 hover:underline">GIF to WebP →</Link>
             <Link href="/webp-to-png" className="text-sm text-indigo-600 hover:underline">WebP to PNG (convert back) →</Link>
-            <Link href="/png-to-avif" className="text-sm text-indigo-600 hover:underline">PNG to AVIF (even smaller) →</Link>
           </div>
         </section>
 

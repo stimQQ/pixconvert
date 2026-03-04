@@ -275,8 +275,8 @@ export default function JpgToWebpPage() {
           <p className="text-sm text-gray-400 mb-3">Related converters:</p>
           <div className="flex flex-wrap gap-3">
             <Link href="/png-to-webp" className="text-sm text-indigo-600 hover:underline">PNG to WebP (with transparency) →</Link>
+            <Link href="/gif-to-webp" className="text-sm text-indigo-600 hover:underline">GIF to WebP →</Link>
             <Link href="/webp-to-jpg" className="text-sm text-indigo-600 hover:underline">WebP to JPG (convert back) →</Link>
-            <Link href="/jpg-to-avif" className="text-sm text-indigo-600 hover:underline">JPG to AVIF (even smaller files) →</Link>
           </div>
         </section>
 

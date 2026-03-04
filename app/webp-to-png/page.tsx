@@ -287,8 +287,8 @@ export default function WebpToPngPage() {
           <p className="text-sm text-gray-400 mb-3">Related converters:</p>
           <div className="flex flex-wrap gap-3">
             <Link href="/webp-to-jpg" className="text-sm text-indigo-600 hover:underline">WebP to JPG (smaller files, no transparency) →</Link>
+            <Link href="/webp-to-avif" className="text-sm text-indigo-600 hover:underline">WebP to AVIF (even smaller) →</Link>
             <Link href="/png-to-webp" className="text-sm text-indigo-600 hover:underline">PNG to WebP (reduce file size) →</Link>
-            <Link href="/avif-to-png" className="text-sm text-indigo-600 hover:underline">AVIF to PNG →</Link>
           </div>
         </section>
 
