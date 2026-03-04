@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header() {
   return (
     <header className="h-14 border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-50 flex items-center justify-between px-4 lg:px-6">
       <Link href="/" className="flex items-center gap-2 font-bold text-base text-indigo-600">
-        <Image src="/logo.png" alt="PixConvert" width={28} height={28} className="rounded-md" priority />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo.png" alt="PixConvert" width={28} height={28} className="rounded-md" />
         PixConvert
       </Link>
       <Link
